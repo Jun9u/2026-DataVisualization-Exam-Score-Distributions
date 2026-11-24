@@ -1,6 +1,6 @@
 # 분석 자료 선정
 
-기준일: 2026-11-24. [연구 및 분석 계획](research_plan.md)(선행 PR [#7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))에 따라 11월 23일 검토 결과를 다시 판정했다. 관측된 성적의 상승·하락 방향은 선정 기준으로 삼지 않는다. 어떤 시험에서 어떤 지표를 분석할 수 있는지는 [지표별 자료 현황](indicator_coverage.md)에서 확인할 수 있다.
+기준일: 2026-11-24. [연구 및 분석 계획](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/main/docs/research_plan.md)(선행 PR [#7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))에 따라 11월 23일 검토 결과를 다시 판정했다. 관측된 성적의 상승·하락 방향은 선정 기준으로 삼지 않는다. 어떤 시험에서 어떤 지표를 분석할 수 있는지는 [지표별 자료 현황](indicator_coverage.md)에서 확인할 수 있다.
 
 ## 1. 어떤 자료를 왜 선정하는가
 

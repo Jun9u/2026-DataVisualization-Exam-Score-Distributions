@@ -98,4 +98,4 @@ LEET는 매년 표준화한 점수를 발표한다. 같은 표준점수 체계�
 | 평균·과락률·표준편차 자료 | `data/processed/summary/` | [#5](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/5) |
 | 수능·회계사 예비 분석 | `results/primary/` | [#6](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/6) |
 
-자료 선정 기준과 각 시험의 사용 기간은 [분석 자료 선정](data_selection.md), 계산 방법과 해석 범위는 [연구 및 분석 계획](research_plan.md)([PR #7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))을 따른다.
+자료 선정 기준과 각 시험의 사용 기간은 [분석 자료 선정](data_selection.md), 계산 방법과 해석 범위는 [연구 및 분석 계획](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/main/docs/research_plan.md)([PR #7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))을 따른다.
