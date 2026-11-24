@@ -2,7 +2,7 @@
 
 기준일: 2026-11-24
 
-현재 분석에 선정한 9개 시험·평가군(12개 조사 항목)의 지표와 준비 상태를 정리했다. 같은 시험이라도 확보한 지표와 기간이 다르므로, 시험 전체를 한 번에 분석 가능하다고 판단하지 않는다.
+현재 분석에 선정한 9개 시험·평가군(12개 조사 항목)의 지표와 준비 상태를 정리했다. 이 문서는 [자료 선정](data_selection.md)의 결정을 지표별로 다시 보여 주는 현황표이며, 별도의 선정 기준을 제시하지 않는다. 실제 분석에서는 해당 지표의 정의·사용 기간·준비 상태를 참고한다.
 
 ## 1. 지표별 요약
 
@@ -81,7 +81,7 @@ LEET는 매년 표준화한 점수를 발표한다. 같은 표준점수 체계�
 | 평균·표준편차 | KBS한국어(2016·2022·2025, 4회), 간호사·물리치료사 등 보건의료 시험, 고3 학력평가의 평균·표준편차 | 최근 관측 부족, 만점·실기·유효 성적자 정의 또는 정제 범위 검증 필요 |
 | 합격률·합격선 | 공인중개사, 지방직·경찰·소방, 기술·데이터 자격 등 | 합격·선발 결과는 전체 응시자의 점수 수준이나 분포를 대체하지 못함 |
 
-이 표는 주요 미선정 사례를 지표별로 묶은 것이다. 모든 조사 항목과 상세한 기간·미사용 이유는 [시험별 선정 요약](../data/metadata/exam_selection_summary.csv)과 [지표별 상세 검토](../data/metadata/exam_indicator_review.csv)에 기록했다.
+이 표는 이번 연구에서 제외한 주요 자료를 지표별로 묶은 것이다. 미선정 자료의 추가 조사는 현재 계획에 없다. 모든 조사 항목과 상세한 기간·미사용 이유는 [시험별 선정 요약](../data/metadata/exam_selection_summary.csv)과 [지표별 상세 검토](../data/metadata/exam_indicator_review.csv)에 기록했다.
 
 ## 4. 분석 진행 상황
 
@@ -98,4 +98,4 @@ LEET는 매년 표준화한 점수를 발표한다. 같은 표준점수 체계�
 | 평균·과락률·표준편차 자료 | `data/processed/summary/` | [#5](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/5) |
 | 수능·회계사 예비 분석 | `results/primary/` | [#6](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/6) |
 
-자료 선정 기준과 각 시험의 사용 기간은 [분석 자료 선정](data-selection.md), 계산 방법과 해석 범위는 [연구 및 분석 계획](research_plan.md)([PR #7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))을 따른다.
+자료 선정 기준과 각 시험의 사용 기간은 [분석 자료 선정](data_selection.md), 계산 방법과 해석 범위는 [연구 및 분석 계획](research_plan.md)([PR #7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))을 따른다.
