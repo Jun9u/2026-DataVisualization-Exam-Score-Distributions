@@ -27,8 +27,8 @@ def write(name, rows):
         if isinstance(x, Fraction):
             return f"{float(x):.8f}"
         return x
-    with (OUT / (name + ".csv")).open("w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+    with (OUT / (name + ".csv")).open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator="\n")
         w.writeheader()
         for row in rows:
             w.writerow({k:format_value(v) for k,v in row.items()})
