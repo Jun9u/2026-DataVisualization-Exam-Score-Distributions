@@ -36,9 +36,9 @@ def main():
         assert all(left[1] + 1 == right[0] for left, right in zip(bounds, bounds[1:]))
     groups.clear()
     for r in cpa:
-        assert r["원자료"] in psources and r["시행연도"] != "2019"
+        assert r["원자료"] in psources
         groups[(r["과목_평균"], int(r["시행연도"]))].append(r)
-    assert len(cpa) == 540 and len(groups) == 54
+    assert len(cpa) == 600 and len(groups) == 60
     for rs in groups.values():
         rs.sort(key=lambda r: int(r["하한_이상"]))
         assert [int(r["하한_이상"]) for r in rs] == list(range(0, 100, 10))
@@ -47,7 +47,7 @@ def main():
         assert {int(r["응시자"]) for r in rs} == {n}
         assert min(counts) >= 0 and sum(counts) == n > 0
         assert all(sum(counts[i:]) == int(r["하한이상_누적인원"]) for i, r in enumerate(rs))
-    print("OK: CSAT 19 distributions, CPA 54 distributions (2025 separate)")
+    print("OK: CSAT 19 distributions, CPA 60 distributions (2025 separate)")
 
 
 if __name__ == "__main__":
