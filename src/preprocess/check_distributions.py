@@ -18,8 +18,8 @@ def main():
     for r in july:
         assert r["원본"] in sources and r["월"] == "7"
         groups[(int(r["시행연도"]), r["과목"])].append(r)
-    assert len(july) == 108 and len(groups) == 12
-    assert {y for y, _ in groups} == {2017, 2019, 2020, 2022, 2023, 2025}
+    assert len(july) == 126 and len(groups) == 14
+    assert {y for y, _ in groups} == {2017, 2019, 2020, 2022, 2023, 2024, 2025}
     for rs in groups.values():
         assert sorted(int(r["등급"]) for r in rs) == list(range(1, 10))
         n = int(rs[0]["과목응시자"])
@@ -44,7 +44,7 @@ def main():
         counts = [int(r["인원"]) for r in rs]
         assert min(counts) >= 0 and sum(counts) == n > 0
         assert {r["점수체계"] for r in rs} == {"2018 이전체계(별도)" if y == 2018 else "2019 이후체계"}
-    print("OK: 12 July and 14 LEET distributions (2018 separate)")
+    print("OK: 14 July and 14 LEET distributions (2018 separate)")
 
 
 if __name__ == "__main__":
