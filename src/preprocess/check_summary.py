@@ -15,7 +15,7 @@ def main():
     prof = read("professional.csv")
     sources = {r["원본"] for r in read("professional_sources.csv")}
     keys = {(r["시험"], r["차수"], r["시행연도"], r["구분"], r["과목"]) for r in prof}
-    assert len(prof) == len(keys) == 168
+    assert len(prof) == len(keys) == 176
     excluded = []
     for r in prof:
         assert r["원본"] in sources
@@ -34,7 +34,7 @@ def main():
     assert [int(r["회차"]) for r in dietitian] == list(range(40, 50))
     assert all(r["만점"] == "220" and 0 <= float(r["평균"]) <= 220 and float(r["표준편차"]) > 0 for r in dietitian)
     assert sum(r["표기연도"] == "2017" for r in dietitian) == 2
-    print("OK: 168 professional subject records, 9 TOEIC annual means, 10 dietitian rounds")
+    print("OK: 176 professional subject records, 9 TOEIC annual means, 10 dietitian rounds")
 
 
 if __name__ == "__main__":
