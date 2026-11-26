@@ -1,6 +1,6 @@
 # 분석 자료 선정
 
-기준일: 2026-11-24. [연구 및 분석 계획](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/main/docs/research_plan.md)(선행 PR [#7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))에 따라 11월 23일 검토 결과를 다시 판정했다. 관측된 성적의 상승·하락 방향은 선정 기준으로 삼지 않는다. 어떤 시험에서 어떤 지표를 분석할 수 있는지는 [지표별 자료 현황](indicator_coverage.md)에서 확인할 수 있다.
+기준일: 2026-11-26. [연구 및 분석 계획](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/main/docs/research_plan.md)(선행 PR [#7](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/pull/7))에 따라 11월 23일 검토 결과를 다시 판정했다. 관측된 성적의 상승·하락 방향은 선정 기준으로 삼지 않는다. 어떤 시험에서 어떤 지표를 분석할 수 있는지는 [지표별 자료 현황](indicator_coverage.md)에서 확인할 수 있다.
 
 ## 1. 어떤 자료를 왜 선정하는가
 
@@ -35,8 +35,8 @@
 | --- | ---: |
 | L1 | 29 |
 | L2 | 26 |
-| L3 | 61 |
-| P | 292 |
+| L3 | 62 |
+| P | 291 |
 | X | 17 |
 | 합계 | 425 |
 
@@ -46,19 +46,38 @@
 
 | 시험·차수 | 실제 선정 지표와 시행연도 | 선정 이유 및 사용하지 않는 범위 |
 | --- | --- | --- |
-| 공인회계사 1차 | L1: 2016–2018·2020–2024, 5과목 및 공식 전체평균 10점 구간·70/80/90점 이상 비중 | 같은 개편 전 분포와 고정 기준점 확보. 2019 원발행기관 대조 미완료, 2025 배점·과목 개편 후 L3 별도 관찰 |
+| 공인회계사 1차 | L1: 2016–2024, 5과목 및 공식 전체평균 10점 구간·70/80/90점 이상 비중 | 같은 개편 전 분포와 고정 기준점 확보. 2019 사용자 확보 보도자료 원표 대조 완료. 2025 배점·과목 개편 후 L3 별도 관찰 |
 | 수능 영어·한국사 | L1: 영어 2017–2025, 한국사 2016–2025, 9등급·1등급 비중 | 각각 절대평가 도입 시점부터 같은 고정 점수 경계, 과목 응시자 수와 구간 합 검증 |
-| 고3 7월 전국연합학력평가 | L2: 2017·2019·2020·2022·2023·2025, 영어·한국사 등급분포 | 같은 학년·월 및 고정 점수 기준. 2018·2024 재배포본 직접 대조 전, 2021 미확보. 확보한 연도끼리 비교. 평균·표준편차는 정제 범위 확인 후 추가 검토 |
+| 고3 7월 전국연합학력평가 | L2: 2017·2019·2020·2022–2025, 영어·한국사 등급분포 | 같은 학년·월 및 고정 점수 기준. 2024 교육청 원표 대조 완료. 2018·2021 별도 검증 보고 자료의 정제표 통합 대기. 확보한 연도끼리 비교. 평균·표준편차는 정제 범위 확인 후 추가 검토 |
 | LEET | L2: 2019·2020·2022–2025, 언어이해·추리논증 표준점수 분포 | 2019 이후 동일 표준점수 체계. 2021 미확보, 2018 구체계 L3. 원점수 상승이나 과거 범위 초과 판단 금지 |
 | 세무사 1차 | L1/L2: 2017–2025, 과목별 평균·과락률 | 2016 검증표 미확보. 2019 상법 과락률만 수치 불일치로 제외, 평균 유지. 해당 과락 계열은 과거 연속쌍 부족으로 L2; 선택과목은 별도 분모 |
 | 세무사 2차 | L1: 2017–2025, 과목별 평균·과락률 | 2016 검증표 미확보. 과목 면제자 때문에 해당 과목 응시자 기준으로 비교 |
-| 관세사 1·2차 | L2: 2020–2025, 과목별 평균·과락률 | 2016–2019 검증 계열 미확보. 양측 3개년씩으로 보조 비교, 차수별 집단 분리 |
+| 관세사 1·2차 | L2: 1차 2016·2017·2020–2025, 2차 2020–2025, 과목별 평균·과락률 | 2016·2017년 1차 채점 통계 원표 직접 확보. 2018·2019년 1·2차 별도 검증 자료 통합 대기. 차수별 집단 분리 |
 | 주택관리사보 1차 | L1: 2016–2025, 과목별 평균·과락률 | 전체 목표 기간의 공식 통계와 과목별 분모 검증 |
 | 주택관리사보 2차 (신규 선정) | L2: 2020–2025, 두 과목 평균·과락률 | 2020 상대 선발 전환 이후 같은 체계에서 3+3년. 관세사와 동일 기간 규칙 적용. 2016–2019 개편 전 자료는 L3, 합격률은 분석 지표 아님 |
 | TOEIC L&R | L1: 2017–2025, 공식 국내 정기시험 환산점수 연평균 | 공식 연평균의 장기 변화만 비교. 2016 연평균 미확보, 회차별 분포는 2024–2025만 있으며 N 미확보로 연간 분포 계산 금지. 개인 단위 성적 및 원점수 해석 불가 |
 | 영양사 | L2: 2017–2025 10회, 220점 체계 평균·표준편차 | 2016 300점·9과목 체계 제외. 2017 두 회차, 2025 응시/성적 분모 차이, 원년 표 대조가 남아 공식 회차별 공표값만 기술 |
 
-공통 기간 비교는 2020–2022년과 2023–2024년의 다섯 해가 모두 확보된 지표에만 적용한다. LEET는 2021년, 학력평가는 2021·2024년 자료가 빠져 있으므로 공통 결과표에는 포함하지 않고 실제 확보한 연도끼리 별도로 비교한다. 개편 후 회계사 2025년 자료와 회차별로 발표된 영양사 통계도 공통 기간의 연간 평균에 섞지 않는다.
+공통 기간 비교는 2020–2022년과 2023–2024년의 다섯 해가 모두 확보된 지표에만 적용한다. LEET와 학력평가는 현재 정제표에 2021년 자료가 빠져 있으므로 공통 결과표에는 포함하지 않고 실제 확보한 연도끼리 별도로 비교한다. 개편 후 회계사 2025년 자료와 회차별로 발표된 영양사 통계도 공통 기간의 연간 평균에 섞지 않는다.
+
+
+### 11월 26일 누락 연도 보완 상태
+
+직접 확보한 원자료 네 개 중 성적 분석에 적합한 세 자료를 검증하고 PR #2·#4·#5에 86행을 추가했다. 2024 학력평가 18행, 2019 회계사 60행, 2016·2017 관세사 1차 8행이다. 관세사 합격자 평균 파일은 참고용으로 기록하고 분석에서 제외한다. 이 문서의 표와 상세 CSV는 현재 GitHub 정제표를 기준으로 한다.
+
+별도 자료 수집 세션에서는 91행의 추가 검증 결과를 보고했으나 해당 작업공간 ZIP의 파일을 이 작업에서 직접 열지 못했다. 따라서 아래는 보고된 보완 결과를 통합했을 때의 예상 범위다. 2016 관세사 1차 4행은 직접 확보분과 중복되므로 키별 대조 후 한 번만 반영한다.
+
+| 시험 | 현재 정제표 | 별도 자료 통합 후 |
+| --- | --- | --- |
+| 고3 7월 학력평가 | 2017·2019·2020·2022–2025, L2 | 2017–2025, L1 |
+| LEET | 2019·2020·2022–2025, L2 | 2019–2025, L2 |
+| 회계사 1차 | 2016–2024, L1 | 동일 |
+| 관세사 1차 | 2016·2017·2020–2025, L2 | 2016–2025, L1 |
+| 관세사 2차 | 2020–2025, L2 | 2018–2025, L1 |
+| 세무사 2차 | 2017–2025, L1 | 2016–2025, L1 |
+| TOEIC | 2017–2025, L1 | 2016–2025, L1 |
+
+별도 자료 통합 후 남는 보류·미발견 항목은 관세사 2차 2016·2017년, 세무사 1차 2016년이다. 과목·지표별 확인은 가능하지만 추가 수집 없이 현재 검증 범위에서 분석을 진행할 수 있다. 회계사 2019년 추가에 따라 기존 예비 분석(PR #6)은 갱신 전 결과임을 구분한다.
 
 ## 4. 미선정 자료의 처리
 
@@ -81,7 +100,7 @@
 | 지방직·경찰·소방·임용·기술/데이터 자격 | 합격선·응시/합격 집계 위주 | 전체 응시자의 성적 수준이나 분포를 확인할 수 없는 지표 |
 | TOEFL·IELTS·JLPT | 세계/해외/누적 집계 등 | 국내 응시집단과 독립 시행연도별 비교 자료 미확인 |
 
-선정한 시험에서도 사용하지 않는 연도와 지표는 동일하게 제외한다. 예를 들어 회계사 2019년, 학력평가 2018·2021·2024년, LEET 2021년을 보완하기 위한 추가 자료 수집은 현재 계획에 없다. 회계사 2025년처럼 개편 후 이미 확보한 자료는 별도 참고 결과로만 제시할 수 있다.
+선정한 시험에서도 사용하지 않는 연도와 지표는 동일하게 제외한다. 선정된 시험의 누락 연도는 11월 26일 별도 추가 조사와 사용자의 직접 확보로 보완했다. 남은 자료는 추가 수집을 기본 작업으로 삼지 않는다. 회계사 2025년처럼 개편 후 이미 확보한 자료는 별도 참고 결과로만 제시할 수 있다.
 
 남은 데이터 작업은 **선정 자료의 정제·검산 및 분석에 필요한 보완**이다. 주택관리사보 2차 입력 추가, 선정 자료의 수치·정의와 출처 확인 등이 여기에 해당한다. 필수 검증에서 문제가 발견되면 해당 지표를 수정하거나 사용 범위를 줄인다. 미선정 자료의 확대는 이번 분석에 포함하지 않으며, 별도 후속 연구에서 검증 조건이 해결될 때 재검토할 수 있다.
 
@@ -93,15 +112,15 @@
 
 | 시험 | 발행기관 및 실제 자료 | 연도별 상세 출처 |
 | --- | --- | --- |
-| 수능 영어·한국사 | 한국교육과정평가원 수능 채점 결과 발표의 영역별 등급표. 교육기관 재배포 사본 포함 | [수능 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/476863404469c6f49dd5797e69a92770a6f18ea1/data/processed/primary/csat_sources.csv) |
-| 공인회계사 1차 | 금융감독원·금융위원회 시험 합격자 발표 첨부 점수분포표. 공식 자료 및 배포 사본 구분 | [회계사 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/476863404469c6f49dd5797e69a92770a6f18ea1/data/processed/primary/cpa_sources.csv) |
-| 고3 7월 학력평가 | 인천광역시교육청 전국연합학력평가 통계자료 | [학력평가 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/882b770c981be176801b3fefe599c71d1c82071d/data/processed/distributions/july_sources.csv) |
-| LEET | 법학전문대학원협의회 표준점수 분포 자료 | [LEET 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/882b770c981be176801b3fefe599c71d1c82071d/data/processed/distributions/leet_sources.csv) |
-| 세무사 1·2차 | 한국산업인력공단 Q-net [세무사 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5211374&boardId=Q008&gId=22&gSite=L&id=cst00302) | [전문자격 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/3e0491e0068d94a41534eecf5591009bac677b48/data/processed/summary/professional_sources.csv) |
+| 수능 영어·한국사 | 한국교육과정평가원 수능 채점 결과 발표의 영역별 등급표. 교육기관 재배포 사본 포함 | [수능 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/45f208095b8a414b149ec5effb1f38336cc25f26/data/processed/primary/csat_sources.csv) |
+| 공인회계사 1차 | 금융감독원·금융위원회 시험 합격자 발표 첨부 점수분포표. 공식 자료 및 배포 사본 구분 | [회계사 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/45f208095b8a414b149ec5effb1f38336cc25f26/data/processed/primary/cpa_sources.csv) |
+| 고3 7월 학력평가 | 인천광역시교육청 전국연합학력평가 통계자료 | [학력평가 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/5b160dda7225efa04a4e1d344e389c5658967990/data/processed/distributions/july_sources.csv) |
+| LEET | 법학전문대학원협의회 표준점수 분포 자료 | [LEET 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/5b160dda7225efa04a4e1d344e389c5658967990/data/processed/distributions/leet_sources.csv) |
+| 세무사 1·2차 | 한국산업인력공단 Q-net [세무사 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5211374&boardId=Q008&gId=22&gSite=L&id=cst00302) | [전문자격 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/2479399d57e53f20c1c2a3b4393797b0c654317e/data/processed/summary/professional_sources.csv) |
 | 관세사 1·2차 | 한국산업인력공단 Q-net [관세사 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5210035&boardId=Q008&gId=24&gSite=L&id=cst00302) | 같은 전문자격 출처표 |
 | 주택관리사보 1·2차 | 한국산업인력공단 Q-net [주택관리사보 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5212525&boardId=Q008&gId=59&gSite=L&id=cst00302) | 같은 전문자격 출처표; 신규 선정 2차는 아래 통합 출처 목록 EX-018 참조 |
-| TOEIC L&R | 한국TOEIC위원회 [정기시험 연간 성적 분석](https://exam.toeic.co.kr/result/statisYearly.php) 및 공식 연도별 발표 | [연간 평균 및 출처](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/3e0491e0068d94a41534eecf5591009bac677b48/data/processed/summary/toeic_annual.csv) |
-| 영양사 | 한국보건의료인국가시험원 [2020년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=256), [2025년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=422)의 과거 추이표 | [회차별 평균·표준편차와 PDF 출처·쪽수](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/3e0491e0068d94a41534eecf5591009bac677b48/data/processed/summary/dietitian.csv) |
+| TOEIC L&R | 한국TOEIC위원회 [정기시험 연간 성적 분석](https://exam.toeic.co.kr/result/statisYearly.php) 및 공식 연도별 발표 | [연간 평균 및 출처](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/2479399d57e53f20c1c2a3b4393797b0c654317e/data/processed/summary/toeic_annual.csv) |
+| 영양사 | 한국보건의료인국가시험원 [2020년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=256), [2025년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=422)의 과거 추이표 | [회차별 평균·표준편차와 PDF 출처·쪽수](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/2479399d57e53f20c1c2a3b4393797b0c654317e/data/processed/summary/dietitian.csv) |
 
 미선정 자료도 기존 조사 기록에 남은 공개 URL과 접근 결과를 통합 출처 목록에 수록했다. 시험별 조사 ID(EX-001–EX-088)로 검색할 수 있다. 원자료·공고 대조 경로·조사 경로를 구분했으며, 조사 경로의 수신 기록은 성적 수치의 검증 완료를 뜻하지 않는다. 다운로드 실패도 기록했고, 임시 서명 주소나 세션 식별자는 공개하지 않는다. 원문 접근 가능 여부는 기존 수집일 기준이며 이번 문서 수정에서 모든 사이트를 다시 접속한 것은 아니다.
 
