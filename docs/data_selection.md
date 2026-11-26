@@ -40,7 +40,7 @@
 | X | 17 |
 | 합계 | 425 |
 
-기존 11개 선정 항목에 주택관리사보 2차(EX-018)를 추가해 **12개 조사 항목, 9개 시험·평가군**을 선정했다. 같은 시험의 차수가 추가되었으므로 시험군 수는 그대로다. 선정된 검토 행은 55개이며, 일부 행에는 여러 과목이나 지표가 묶여 있다. 따라서 이를 독립된 시험 또는 지표 55개로 해석하지 않는다. 새로 선정한 주택관리사보 2차의 정제 데이터 반영과 분석은 후속 작업이다. 나머지 76개 조사 항목은 이번 연구의 전후 분석에서 제외한다. 자료가 부족한 해를 채우기 위한 추가 수집도 기본 작업 범위에 포함하지 않는다.
+기존 11개 선정 항목에 주택관리사보 2차(EX-018)를 추가해 **12개 조사 항목, 9개 시험·평가군**을 선정했다. 같은 시험의 차수가 추가되었으므로 시험군 수는 그대로다. 선정된 검토 행은 55개이며, 일부 행에는 여러 과목이나 지표가 묶여 있다. 따라서 이를 독립된 시험 또는 지표 55개로 해석하지 않는다. 새로 선정한 주택관리사보 2차의 2020–2025년 두 과목 정제표는 원문 재검증 후 PR #5에 추가했다. 통계 분석은 후속 작업이다. 나머지 76개 조사 항목은 이번 연구의 전후 분석에서 제외한다. 자료가 부족한 해를 채우기 위한 추가 수집도 기본 작업 범위에 포함하지 않는다.
 
 ## 3. 선정 자료별 기간과 근거
 
@@ -54,7 +54,7 @@
 | 세무사 2차 | L1: 2017–2025, 과목별 평균·과락률 | 2016 검증표 미확보. 과목 면제자 때문에 해당 과목 응시자 기준으로 비교 |
 | 관세사 1·2차 | L2: 1차 2016·2017·2020–2025, 2차 2020–2025, 과목별 평균·과락률 | 2016·2017년 1차 채점 통계 원표 직접 확보. 2018·2019년 1·2차 별도 검증 자료 통합 대기. 차수별 집단 분리 |
 | 주택관리사보 1차 | L1: 2016–2025, 과목별 평균·과락률 | 전체 목표 기간의 공식 통계와 과목별 분모 검증 |
-| 주택관리사보 2차 (신규 선정) | L2: 2020–2025, 두 과목 평균·과락률 | 2020 상대 선발 전환 이후 같은 체계에서 3+3년. 관세사와 동일 기간 규칙 적용. 2016–2019 개편 전 자료는 L3, 합격률은 분석 지표 아님 |
+| 주택관리사보 2차 (신규 선정) | L2: 2020–2025, 두 과목 평균·과락률 | 2020 상대 선발 전환 이후 같은 체계에서 3+3년. 관세사와 동일 기간 규칙 적용. 2016–2019 개편 전 자료는 L3. 2020–2025년 12개 과목행 정제 완료; 합격률은 분석 지표 아님 |
 | TOEIC L&R | L1: 2017–2025, 공식 국내 정기시험 환산점수 연평균 | 공식 연평균의 장기 변화만 비교. 2016 연평균 미확보, 회차별 분포는 2024–2025만 있으며 N 미확보로 연간 분포 계산 금지. 개인 단위 성적 및 원점수 해석 불가 |
 | 영양사 | L2: 2017–2025 10회, 220점 체계 평균·표준편차 | 2016 300점·9과목 체계 제외. 2017 두 회차, 2025 응시/성적 분모 차이, 원년 표 대조가 남아 공식 회차별 공표값만 기술 |
 
@@ -63,7 +63,7 @@
 
 ### 11월 26일 누락 연도 보완 상태
 
-직접 확보한 원자료 네 개 중 성적 분석에 적합한 세 자료를 검증하고 PR #2·#4·#5에 86행을 추가했다. 2024 학력평가 18행, 2019 회계사 60행, 2016·2017 관세사 1차 8행이다. 관세사 합격자 평균 파일은 참고용으로 기록하고 분석에서 제외한다. 이 문서의 표와 상세 CSV는 현재 GitHub 정제표를 기준으로 한다.
+직접 확보한 원자료 네 개 중 성적 분석에 적합한 세 자료를 검증하고 PR #2·#4·#5에 86행을 추가했다. 2024 학력평가 18행, 2019 회계사 60행, 2016·2017 관세사 1차 8행이다. 관세사 합격자 평균 파일은 참고용으로 기록하고 분석에서 제외한다. 추가로 기존 보존 원문의 주택관리사보 2차 12행을 재검증해 PR #5에 반영했다. 이 문서의 표와 상세 CSV는 현재 GitHub 정제표를 기준으로 한다.
 
 별도 자료 수집 세션에서는 91행의 추가 검증 결과를 보고했으나 해당 작업공간 ZIP의 파일을 이 작업에서 직접 열지 못했다. 따라서 아래는 보고된 보완 결과를 통합했을 때의 예상 범위다. 2016 관세사 1차 4행은 직접 확보분과 중복되므로 키별 대조 후 한 번만 반영한다.
 
@@ -102,7 +102,7 @@
 
 선정한 시험에서도 사용하지 않는 연도와 지표는 동일하게 제외한다. 선정된 시험의 누락 연도는 11월 26일 별도 추가 조사와 사용자의 직접 확보로 보완했다. 남은 자료는 추가 수집을 기본 작업으로 삼지 않는다. 회계사 2025년처럼 개편 후 이미 확보한 자료는 별도 참고 결과로만 제시할 수 있다.
 
-남은 데이터 작업은 **선정 자료의 정제·검산 및 분석에 필요한 보완**이다. 주택관리사보 2차 입력 추가, 선정 자료의 수치·정의와 출처 확인 등이 여기에 해당한다. 필수 검증에서 문제가 발견되면 해당 지표를 수정하거나 사용 범위를 줄인다. 미선정 자료의 확대는 이번 분석에 포함하지 않으며, 별도 후속 연구에서 검증 조건이 해결될 때 재검토할 수 있다.
+남은 데이터 작업은 **선정 자료의 정제·검산 및 분석에 필요한 보완**이다. 주택관리사보 2차 입력은 추가했다. 남은 작업은 별도 보완 자료의 통합, 선정 자료의 수치·정의와 출처 확인이다. 필수 검증에서 문제가 발견되면 해당 지표를 수정하거나 사용 범위를 줄인다. 미선정 자료의 확대는 이번 분석에 포함하지 않으며, 별도 후속 연구에서 검증 조건이 해결될 때 재검토할 수 있다.
 
 88개 항목 전체의 제외·선정 결정은 [시험별 선정 요약](../data/metadata/exam_selection_summary.csv)에 기록했다. 표의 '추후_재검토_조건'은 현재 수행할 작업이 아니라 향후 해당 자료를 사용하려면 충족해야 하는 조건이다.
 
@@ -116,11 +116,11 @@
 | 공인회계사 1차 | 금융감독원·금융위원회 시험 합격자 발표 첨부 점수분포표. 공식 자료 및 배포 사본 구분 | [회계사 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/45f208095b8a414b149ec5effb1f38336cc25f26/data/processed/primary/cpa_sources.csv) |
 | 고3 7월 학력평가 | 인천광역시교육청 전국연합학력평가 통계자료 | [학력평가 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/5b160dda7225efa04a4e1d344e389c5658967990/data/processed/distributions/july_sources.csv) |
 | LEET | 법학전문대학원협의회 표준점수 분포 자료 | [LEET 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/5b160dda7225efa04a4e1d344e389c5658967990/data/processed/distributions/leet_sources.csv) |
-| 세무사 1·2차 | 한국산업인력공단 Q-net [세무사 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5211374&boardId=Q008&gId=22&gSite=L&id=cst00302) | [전문자격 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/2479399d57e53f20c1c2a3b4393797b0c654317e/data/processed/summary/professional_sources.csv) |
+| 세무사 1·2차 | 한국산업인력공단 Q-net [세무사 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5211374&boardId=Q008&gId=22&gSite=L&id=cst00302) | [전문자격 출처표](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/1f389a7c0975f19606c6974abb0553d477681409/data/processed/summary/professional_sources.csv) |
 | 관세사 1·2차 | 한국산업인력공단 Q-net [관세사 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5210035&boardId=Q008&gId=24&gSite=L&id=cst00302) | 같은 전문자격 출처표 |
-| 주택관리사보 1·2차 | 한국산업인력공단 Q-net [주택관리사보 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5212525&boardId=Q008&gId=59&gSite=L&id=cst00302) | 같은 전문자격 출처표; 신규 선정 2차는 아래 통합 출처 목록 EX-018 참조 |
-| TOEIC L&R | 한국TOEIC위원회 [정기시험 연간 성적 분석](https://exam.toeic.co.kr/result/statisYearly.php) 및 공식 연도별 발표 | [연간 평균 및 출처](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/2479399d57e53f20c1c2a3b4393797b0c654317e/data/processed/summary/toeic_annual.csv) |
-| 영양사 | 한국보건의료인국가시험원 [2020년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=256), [2025년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=422)의 과거 추이표 | [회차별 평균·표준편차와 PDF 출처·쪽수](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/2479399d57e53f20c1c2a3b4393797b0c654317e/data/processed/summary/dietitian.csv) |
+| 주택관리사보 1·2차 | 한국산업인력공단 Q-net [주택관리사보 시험 통계](https://www.q-net.or.kr/cst003.do?artlSeq=5212525&boardId=Q008&gId=59&gSite=L&id=cst00302) | 같은 전문자격 출처표; 2차는 통합 출처 목록 EX-018도 참조 |
+| TOEIC L&R | 한국TOEIC위원회 [정기시험 연간 성적 분석](https://exam.toeic.co.kr/result/statisYearly.php) 및 공식 연도별 발표 | [연간 평균 및 출처](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/1f389a7c0975f19606c6974abb0553d477681409/data/processed/summary/toeic_annual.csv) |
+| 영양사 | 한국보건의료인국가시험원 [2020년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=256), [2025년 분석 보고서](https://www.kuksiwon.or.kr/analysis/brd/m_91/view.do?seq=422)의 과거 추이표 | [회차별 평균·표준편차와 PDF 출처·쪽수](https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions/blob/1f389a7c0975f19606c6974abb0553d477681409/data/processed/summary/dietitian.csv) |
 
 미선정 자료도 기존 조사 기록에 남은 공개 URL과 접근 결과를 통합 출처 목록에 수록했다. 시험별 조사 ID(EX-001–EX-088)로 검색할 수 있다. 원자료·공고 대조 경로·조사 경로를 구분했으며, 조사 경로의 수신 기록은 성적 수치의 검증 완료를 뜻하지 않는다. 다운로드 실패도 기록했고, 임시 서명 주소나 세션 식별자는 공개하지 않는다. 원문 접근 가능 여부는 기존 수집일 기준이며 이번 문서 수정에서 모든 사이트를 다시 접속한 것은 아니다.
 
